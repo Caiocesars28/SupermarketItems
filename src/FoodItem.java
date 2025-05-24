@@ -1,6 +1,6 @@
 // This class extends Item and represents a food product
 public class FoodItem extends Item {
-    private String expirationDate;  // expiration date of the food item
+    String expirationDate;  // expiration date of the food item
 
     // Constructor – adds expirationDate in addition to base Item info
     public FoodItem(String name, double price, int quantity, String expirationDate) {
